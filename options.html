@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShortLink Manager - Options</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>ShortLink Manager Settings</h2>
+  
+  <label for="base-url">Base URL</label>
+  <input type="text" id="base-url" placeholder="Enter Base URL">
+  
+  <label for="api-key">API Key</label>
+  <input type="text" id="api-key" placeholder="Enter API Key">
+  
+  <button id="save">Save</button>
+  <button id="reset">Reset</button>
+  
+  <div id="status"></div>
+  
+  <script src="options.js"></script>
+</body>
+</html>
